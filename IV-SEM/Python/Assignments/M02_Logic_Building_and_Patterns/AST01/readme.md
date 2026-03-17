@@ -1,24 +1,14 @@
-# Ugly Number
+# Count Digits
 
 ## Problem Statement
-An ugly number is a positive integer which does not have a prime factor other than 2, 3, and 5.
-Given an integer n, return true if n is an ugly number.
-```
-Example 1:
-Input: n = 6
-Output: true
-Explanation: 6 = 2 × 3
+Write a function count_digits(n: int) -> int that returns the number of digits in a number.
 
-Example 2:
-Input: n = 1
-Output: true
-Explanation: 1 has no prime factors.
-Example 3:
+### Example
+Input: 
+4567
 
-Input: n = 14
-Output: false
-Explanation: 14 is not ugly since it includes the prime factor 7.
-```
+Output: 
+4
 
 ## Instructions
 1. Write your solution in `task.py`

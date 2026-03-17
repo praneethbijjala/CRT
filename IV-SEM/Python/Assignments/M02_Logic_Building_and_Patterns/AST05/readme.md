@@ -1,23 +1,19 @@
-# Collatz Sequence
+# Number Triangle Pattern
+
 
 ## Problem Statement
-```
-The Collatz sequence is a sequence of numbers defined as follows:
+Write a function number_triangle(n: int) -> str that returns the number pattern.
 
-Start with any positive integer 𝑛.
-
-If 𝑛 is even, divide it by 2 → 𝑛 = 𝑛/2.
-
-If 𝑛 is odd, multiply it by 3 and add 1 → 𝑛=3𝑛+1.
-
-Repeat the process with the new value of 𝑛.
-
-The sequence continues until 𝑛 becomes 1.
-```
 ### Example
-Input:6
+Input: 
+4
 
-Output: [6, 3, 10, 5, 16, 8, 4, 2, 1]
+Output: 
+1
+12
+123
+1234
+
 
 ## Instructions
 1. Write your solution in `task.py`

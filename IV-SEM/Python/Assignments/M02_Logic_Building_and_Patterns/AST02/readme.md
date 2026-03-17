@@ -1,29 +1,16 @@
-# Weird/Not Weird
+# Reverse Number
+
 
 ## Problem Statement
-Given an integer,n, perform the following conditional actions:
+Write a function reverse_number(n: int) -> int that returns the reversed number.
 
-If n is odd, print Weird
-If n is even and in the inclusive range of 2 to 5, print Not Weird
-If n is even and in the inclusive range of 6 to 20, print Weird
-If n is even and greater than 20, print Not Weird
-Input Format
+### Example
+Input: 
+123
 
-A single line containing a positive integer, .
+Output: 
+321
 
-Constraints
-1 <= n <= 100 
-
-Output Format
-Print Weird if the number is weird. Otherwise, print Not Weird.
-
-### Example1
-Input: 3
-Output: Weird
-
-### Example2
-Input: 24
-Output: Not Weird
 
 ## Instructions
 1. Write your solution in `task.py`
