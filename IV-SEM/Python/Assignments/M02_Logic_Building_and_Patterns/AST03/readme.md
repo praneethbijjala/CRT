@@ -1,20 +1,16 @@
-# Student Grade System 
+# Sum of Digits
+
 
 ## Problem Statement
-
-Calculate and store student grades for various subjects.
-
-This project stores student grades for various subjects, calculates their average, and determines their final grade. The user can input subject marks, and the system calculates the overall result (pass/fail).
-
-Input: Student name and grades for multiple subjects(3).
-Output: Student’s average grade and status (pass/fail).
+Write a function sum_of_digits(n: int) -> int that returns the sum of digits of a number.
 
 ### Example
-Input:
-Name: Pavan, Grades: 85, 90, 78
+Input: 
+123
 
-Output:
-"Average grade: 84.33, Status: Pass"
+Output: 
+6
+
 
 ## Instructions
 1. Write your solution in `task.py`

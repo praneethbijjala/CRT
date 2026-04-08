@@ -1,16 +1,16 @@
 import unittest
-from task import Reverse_String
+from task import right_triangle
 
 class TestAssignment(unittest.TestCase):
 
-    def test_single_digit(self):
-        self.assertEqual(Reverse_String("hello"), "olleh")
+    def test_small(self):
+        self.assertEqual(right_triangle(2), "*\n**")
 
-    def test_multiple_digits(self):
-        self.assertEqual(Reverse_String("world"), "dlrow")
+    def test_medium(self):
+        self.assertEqual(right_triangle(3), "*\n**\n***")
 
-    def test_with_zero(self):
-        self.assertEqual(Reverse_String("python"), "nohtyp")
+    def test_large(self):
+        self.assertEqual(right_triangle(4), "*\n**\n***\n****")
 
 if __name__ == "__main__":
     unittest.main()

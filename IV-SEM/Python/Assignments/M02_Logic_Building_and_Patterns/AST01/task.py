@@ -1,10 +1,10 @@
-def isUgly(n: int) -> bool:
-    if n <= 0:
-        return False
-    for factor in [2, 3, 5]:
-        while n % factor == 0:
-            n //= factor
-    return n == 1
-if __name__ == '__main__':
+def count_digits(n: int) -> int:
+    n = str(abs(n))
+    count = 0
+    for i in n:
+        count += 1
+    return count
+
+if __name__ == "__main__":
     n = int(input())
-    print(isUgly(n))
+    print(count_digits(n))
